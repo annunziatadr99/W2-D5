@@ -61,7 +61,38 @@ main section h3 {
 main a {
   text-decoration: none;
   color: rgb(7, 108, 185);
+  text-align: left;
 }
+section div {
+  text-align: center;
+}
+section div img {
+  display: inline-block;
+  box-shadow: 3px 4px 20px gray;
+  border-radius: 1.2rem;
+  margin: 0.5rem;
+}
+.blocco2 {
+  display: block;
+  text-align: center;
+}
+.blocco3 {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+aside {
+  text-align: center;
+  background-color: #232f3e;
+  font-size: small;
+}
+aside a {
+  color: white;
+}
+
 footer {
   background-color: #131921;
+  text-align: center;
+  padding: 2.6rem;
 }
