@@ -1,1 +1,12 @@
-/* Your styles here */
+.logo {
+  background-color: #131921;
+}
+.logo1 {
+  padding-left: 2rem;
+}
+
+.menu {
+  background-color: #232f3e;
+  color: white;
+  padding-left: 1rem;
+}
