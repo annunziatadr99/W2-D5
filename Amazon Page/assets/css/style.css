@@ -1,31 +1,66 @@
+body {
+  line-height: 1.5;
+  margin-inline: auto;
+  font-family: Arial, Helvetica, sans-serif;
+
+  width: auto;
+  background-color: rgb(234, 233, 233);
+}
+
 .logo {
   background-color: #131921;
 }
 .logo1 {
-  padding-left: 2rem;
+  padding: 1rem;
 }
 
-.menu {
+nav {
   background-color: #232f3e;
   color: white;
   padding-left: 1rem;
   font-family: Helvetica, sans-serif;
+  font-size: x-small;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  padding: 0.4rem;
 }
 .blocco1 {
   background-color: rgb(253, 130, 28);
   color: white;
-  font-family: Helvetica, sans-serif;
   text-align: center;
+  font-size: small;
+  margin: 1.5rem;
+  padding: 2px;
 }
 .promo {
-  font-family: Arial, Helvetica, sans-serif;
   background-image: url(../images/bg-image.png);
-  background-size: 150%;
-  background-position: center center;
+  background-size: 100%;
   text-align: center;
-  background-color: white;
-  font-family: Helvetica, sans-serif;
+  margin-inline: 1.5rem;
+  padding: 2.7rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: x-large;
   color: white;
+}
+.promo p {
+  font-size: small;
+}
+
+main section {
+  background-color: white;
+  margin: 1.5rem;
+}
+
+main section h3 {
+  padding: 0.5rem;
+  text-align: left;
+}
+main a {
+  text-decoration: none;
+  color: rgb(7, 108, 185);
 }
 footer {
   background-color: #131921;
